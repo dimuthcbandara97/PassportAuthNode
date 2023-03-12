@@ -1,29 +1,22 @@
 {
-  "name": "passportauthnode",
-  "version": "1.0.0",
-  "description": "",
+  "name": "node_passport_login",
+  "version": "2.0.0",
+  "description": "Nodejs session handler",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/dimuthcbandara97/PassportAuthNode.git"
-  },
   "keywords": [],
-  "author": "",
+  "author": "Dimuth Bandara",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/dimuthcbandara97/PassportAuthNode/issues"
-  },
-  "homepage": "https://github.com/dimuthcbandara97/PassportAuthNode#readme",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "connect-flash": "^0.1.1",
-    "express": "^4.18.2",
-    "express-ejs-layouts": "^2.5.1",
-    "express-session": "^1.17.3",
-    "mongoose": "^7.0.1",
+    "ejs": "^3.1.7",
+    "express": "^4.16.4",
+    "express-ejs-layouts": "^2.5.0",
+    "express-session": "^1.15.6",
+    "mongoose": "^5.7.5",
     "passport": "^0.6.0",
     "passport-local": "^1.0.0"
   },
